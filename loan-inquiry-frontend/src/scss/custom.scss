@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+$font-family-sans-serif: "Open Sans", sans-serif;
+$font-family-base: $font-family-sans-serif;
+$primary: #6f00ff;
+$secondary: #493d9e;
+
+@import "bootstrap/scss/bootstrap";
+
+.navbar-brand {
+  font-family: "Fugaz One", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.nav-item .nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+h2 {
+  font-family: "Fugaz One", cursive;
+  font-weight: 400;
+}

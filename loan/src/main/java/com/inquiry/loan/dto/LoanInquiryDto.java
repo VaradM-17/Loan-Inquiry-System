@@ -17,6 +17,8 @@ import lombok.Setter;
 @Schema(description = "Loan Inquiry DTO - holds customer inquiry details.")
 public class LoanInquiryDto {
 
+	private Long id;
+
 	@NotEmpty
 	@Schema(description = "Applicant name", example = "Varad Mule")
 	private String name;
@@ -47,9 +49,9 @@ public class LoanInquiryDto {
 	@Schema(description = "Annual income", example = "500000")
 	private Double annualIncome;
 
-	@NotEmpty
+	@NotNull
 	@Schema(description = "Past loan history", example = "No")
-	private String pastLoan;
+	private Boolean pastLoan;
 
 	@NotEmpty
 	@Schema(description = "PAN card number", example = "ABCDE1234F")

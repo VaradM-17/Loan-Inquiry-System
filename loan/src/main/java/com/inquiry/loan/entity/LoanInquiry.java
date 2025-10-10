@@ -28,6 +28,6 @@ public class LoanInquiry {
 	private String workType;
 	private String organizationName;
 	private Double annualIncome;
-	private String pastLoan;
+	private Boolean pastLoan;
 	private String panCard;
 }
